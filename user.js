@@ -243,6 +243,11 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 // visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // Enter your personal overrides below this line:
+user_pref("identity.fxaccounts.enabled", false);
+user_pref("geo.enabled", false);
+user_pref("network.http.sendRefererHeader", 0);
+user_pref("security.ssl.require_safe_negotiation", true);
+user_pref("ui.key.menuAccessKeyFocuses", false);
 
 /****************************************************************************
  * SECTION: SMOOTHFOX                                                       *
